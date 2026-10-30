@@ -540,8 +540,8 @@
     "CustomData": "{\"showDebugInfo\":\"false\"}"
   },
   "giftcoins": {
-    "Enabled": false,
-    "CooldownSeconds": 0,
+    "Enabled": true,
+    "CooldownSeconds": 60,
     "Cost": 0,
     "SupportsCost": false,
     "PermissionLevel": "everyone",
@@ -761,14 +761,14 @@
   },
   "raid": {
     "Enabled": true,
-    "CooldownSeconds": 0,
+    "CooldownSeconds": 300,
     "Cost": 0,
     "SupportsCost": false,
     "PermissionLevel": "everyone",
     "RequiresConfirmation": false,
     "CommandAlias": "",
-    "useCommandCooldown": false,
-    "MaxUsesPerCooldownPeriod": 0,
+    "useCommandCooldown": true,
+    "MaxUsesPerCooldownPeriod": 2,
     "Label": "raid",
     "CommandDescription": "Call a hostile raid on the colony",
     "ExcludeFromPricelist": false,
@@ -777,7 +777,7 @@
     "DefaultLootBoxSize": 1,
     "MinLootBoxSize": 1,
     "MaxLootBoxSize": 10,
-    "CustomData": "{\"defaultRaidWager\":\"500\",\"minRaidWager\":\"100\",\"maxRaidWager\":\"2500\"}"
+    "CustomData": "{\"defaultRaidWager\":\"1500\",\"minRaidWager\":\"1100\",\"maxRaidWager\":\"3500\"}"
   },
   "raidinfo": {
     "Enabled": true,
